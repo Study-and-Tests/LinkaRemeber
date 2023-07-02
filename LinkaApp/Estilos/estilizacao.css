@@ -11,4 +11,5 @@ body {
 h1 {
     font-weight: bold;
     border-bottom: 2px solid white;
+    text-align: center;
 }
