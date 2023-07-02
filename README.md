@@ -1,2 +1,2 @@
 # LinkaRemeber
-App para manipulação de arquivos html de favoritos exportados por um navegador
+App para manipulação de arquivos html de __favoritos__ exportados por um navegador
