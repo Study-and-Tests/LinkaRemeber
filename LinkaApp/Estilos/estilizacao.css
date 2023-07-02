@@ -1,0 +1,14 @@
+/* Este é um comentário em CSS */
+body {
+    background-color: #151238;
+    /* Define a cor de fundo do corpo */
+    font-family: 'Courier New', Courier, monospace;
+    /* Define a fonte para ser usada no corpo */
+    color: beige;
+}
+
+/* Comentário sobre um seletor de elemento */
+h1 {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
