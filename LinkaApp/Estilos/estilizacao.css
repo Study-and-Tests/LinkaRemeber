@@ -1,15 +1,53 @@
-/* Este é um comentário em CSS */
-body {
-    background-color: #151238;
-    /* Define a cor de fundo do corpo */
-    font-family: 'Courier New', Courier, monospace;
-    /* Define a fonte para ser usada no corpo */
-    color: beige;
+/* Estilos para a pasta pai */
+.pasta_linkaapp {
+    position: relative;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px;
+    list-style-image: url('../Icones/html-5.png');
 }
 
-/* Comentário sobre um seletor de elemento */
-h1 {
-    font-weight: bold;
-    border-bottom: 2px solid white;
-    text-align: center;
+/* Estilos para as pastas filhas */
+.pasta_controles {
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px;
+    list-style-image: url('../Icones/html-5.png');
+}
+
+/* Estilos para as pastas filhas */
+.pasta_estilos {
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px;
+    list-style-image: url('../Icones/html-5.png');
+}
+
+/* Estilos para os arquivos */
+.list-group-item.file {
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px;
+}
+
+/* Estilos para os espaçamentos */
+.list-group-item.folder .list-group-item, .list-group-item.file {
+    margin-top: 5px;
+}
+
+.LinkaRemember_html{
+    list-style-image: url('../Icones/html-5.png');
+}
+.estilizacao_css{
+    list-style-image: url('../Icones/css-3.png');
+}
+.controladores_js{
+    list-style-image: url('../Icones/html-5.png');
+}
+.dados_json{
+    list-style-image: url('../Icones/json.png');
 }
