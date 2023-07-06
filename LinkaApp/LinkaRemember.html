@@ -26,7 +26,7 @@
     <script src="Controles/controladores.js"></script>
 
     <!-- Restante do código do cabeçalho -->
-    <meta http-equiv="refresh" content="30">
+    <meta http-equiv="refresh" content="300">
 </head>
 
 <body class="bg-secondary">
@@ -42,11 +42,12 @@
                     <ul class="list-group" id="pastaProjeto">
 
                         <li class="list-group-item">
+
                             <h2 class="pasta_pai badge">LinkaApp</h2>
                             <ul class="list-group bg-warning">
 
-                                <li class="list-group-item">
-                                    <h3 class="pasta_filha1 badge">Controles</h3>
+                                <li class="list-group-item pastaPai_filha1">
+                                    <h3 class="pastaPai_filha1 h3 badge">Controles</h3>
                                     <ul class="list-group">
                                         <li class="list-group-item arquivo1_pasta1">
                                             <kbd>controladores.js</kbd>
@@ -54,17 +55,17 @@
                                     </ul>
                                 </li>
 
-                                <li class="list-group-item">
-                                    <div class="pasta_filha2 badge">Estilos</div>
+                                <li class="list-group-item pastaPai_filha2">
+                                    <h3 class="pastaPai_filha2 h3 badge">Estilos</h3>
                                     <ul class="list-group">
-                                        <li class="list-group-item arquivo2_pasta2">
+                                        <li class="list-group-item arquivo1_pasta2">
                                             <kbd>estilizacao.css</kbd>
                                         </li>
                                     </ul>
                                 </li>
 
-                                <li class="list-group-item">
-                                    <div class="pasta_filha3 badge">Icones</div>
+                                <li class="list-group-item pastaPai_filha3">
+                                    <h3 class="pastaPai_filha3 h3 badge">Icones</h3>
                                     <ul class="list-group">
                                         <li class="list-group-item arquivo1_pasta3">
                                             <kbd>html-5.png</kbd>
@@ -84,10 +85,12 @@
                                 <li class="list-group-item arquivo1_pastaPai">
                                     <kbd>dados.json</kbd>
                                 </li>
+
                                 <li class="list-group-item arquivo2_pastaPai">
                                     <kbd>LinkaRemember.html</kbd>
                                 </li>
                             </ul>
+                            
                         </li>
 
                     </ul>
@@ -102,6 +105,10 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="container">
+        <div id="status">status</div>
     </div>
 
 </body>
