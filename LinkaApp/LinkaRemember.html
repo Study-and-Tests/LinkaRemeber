@@ -2,114 +2,112 @@
 <html lang="pt-BR">
 
 <head>
+    <title>Linka Remember</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Arquivos CSS do Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
-
-    <!-- Arquivo CSS personalizado, se necessário -->
+    <!-- Arquivos CSS do Bootstrap 5 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <!-- Arquivo CSS personalizado -->
     <link rel="stylesheet" href="Estilos/estilizacao.css">
-
-    <title>Linka Remember</title>
-
-    <!-- JQuery 3.6.0 -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <!-- Arquivos JavaScript do Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
-
-    <!-- Plugins Bootstrap do Popper.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-
-    <!-- Script Personalizado -->
-    <script src="Controles/controladores.js"></script>
-
-    <!-- Restante do código do cabeçalho -->
-    <meta http-equiv="refresh" content="300">
+    
+    <meta http-equiv="refresh" content="10">
 </head>
 
 <body class="bg-secondary">
-
-    <!-- Conteúdo da página -->
-
-    <div class="jumbotron bg-transparent jumbotron-fluid">
+    <div class="container-fluid py-3 my-3">
         <div class="container">
-            <h1 class="font-weight-bold border-bottom border-light text-center">Linka Remember</h1>
+            <h1 class="h1 text-center border-bottom">My First Bootstrap Page</h1>
+            <p class="text-primary">This is some text.</p>
+        </div>
 
-            <div class="card mt-3">
-                <div class="card-body">
-                    <ul class="list-group" id="pastaProjeto">
-
-                        <li class="list-group-item">
-
-                            <h2 class="pasta_pai badge">LinkaApp</h2>
-                            <ul class="list-group bg-warning">
-
-                                <li class="list-group-item pastaPai_filha1">
-                                    <h3 class="pastaPai_filha1 h3 badge">Controles</h3>
-                                    <ul class="list-group">
-                                        <li class="list-group-item arquivo1_pasta1">
-                                            <kbd>controladores.js</kbd>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li class="list-group-item pastaPai_filha2">
-                                    <h3 class="pastaPai_filha2 h3 badge">Estilos</h3>
-                                    <ul class="list-group">
-                                        <li class="list-group-item arquivo1_pasta2">
-                                            <kbd>estilizacao.css</kbd>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li class="list-group-item pastaPai_filha3">
-                                    <h3 class="pastaPai_filha3 h3 badge">Icones</h3>
-                                    <ul class="list-group">
-                                        <li class="list-group-item arquivo1_pasta3">
-                                            <kbd>html-5.png</kbd>
-                                        </li>
-                                        <li class="list-group-item arquivo2_pasta3">
-                                            <kbd>css-3.png</kbd>
-                                        </li>
-                                        <li class="list-group-item arquivo3_pasta3">
-                                            <kbd>js.png</kbd>
-                                        </li>
-                                        <li class="list-group-item arquivo4_pasta3">
-                                            <kbd>json.png</kbd>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li class="list-group-item arquivo1_pastaPai">
-                                    <kbd>dados.json</kbd>
-                                </li>
-
-                                <li class="list-group-item arquivo2_pastaPai">
-                                    <kbd>LinkaRemember.html</kbd>
-                                </li>
-                            </ul>
-                            
-                        </li>
-
-                    </ul>
+        <div class="card bg-primary">
+            <div class="card-body">
+                <div class="container">
+                    <h3 class="h3">Titulo do Projeto</h3>
+                    <p>Details...</p>
                 </div>
-                <div class="card-footer">
-                    <div class="d-flex justify-content-around">
-                        <button type="button" class="btn btn-primary" id="atualizarEstrutura">Atualizar</button>
-                        <button type="button" class="btn btn-success">Ação</button>
-                        <button type="button" class="btn btn-info">Ação</button>
-                        <button type="button" class="btn btn-warning">Ação</button>
-                    </div>
-                </div>
+                <ul class="list-group">
+                    <li class="list-group-item bg-dark">
+                        <code>../Favoritando</code>
+                        <ul class="list-group mt-2">
+                            <li class="list-group-item border bg-dark">
+                                <code>/JS</code>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item shadow my-1">
+                                        controles.js
+                                        <span class="float-end badge bg-secondary badge-icon">
+                                            <img src="Icones/js.png" alt="Ícone JavaScript" width="25" height="25">
+                                        </span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item border bg-dark">
+                                <code>/CSS</code>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item shadow my-1">
+                                        estilos.css
+                                        <span class="float-end badge bg-secondary badge-icon">
+                                            <img src="Icones/css-3.png" alt="Ícone CSS" width="25" height="25">
+                                        </span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item border bg-dark">
+                                <code>/ICONES</code>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item shadow my-1">
+                                        icone-html.png
+                                        <span class="float-end badge bg-secondary badge-icon">
+                                            <img src="Icones/html-5.png" alt="Ícone HTML" width="25" height="25">
+                                        </span>
+                                    </li>
+                                    <li class="list-group-item shadow my-1">
+                                        icone-css.png
+                                        <span class="float-end badge bg-secondary badge-icon">
+                                            <img src="Icones/css-3.png" alt="Ícone CSS" width="25" height="25">
+                                        </span>
+                                    </li>
+                                    <li class="list-group-item shadow my-1">
+                                        icone-js.png
+                                        <span class="float-end badge bg-secondary badge-icon">
+                                            <img src="Icones/js.png" alt="Ícone JavaScript" width="25" height="25">
+                                        </span>
+                                    </li>
+                                    <li class="list-group-item shadow my-1">
+                                        icone-json.png
+                                        <span class="float-end badge bg-secondary badge-icon">
+                                            <img src="Icones/json.png" alt="Ícone JSON" width="25" height="25">
+                                        </span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item border bg-dark">
+                                <code>EXPORTAÇÕES</code>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item shadow my-1">
+                                        favoritos_31_07_1995.html
+                                        <span class="float-end badge bg-secondary badge-icon">
+                                            <img src="Icones/html-5.png" alt="Ícone HTML" width="25" height="25">
+                                        </span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-footer d-flex justify-content-between">
+                <button class="btn btn-warning">Atualizar</button>
+                <button class="btn btn-success">Realçar</button>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div id="status">status</div>
-    </div>
+    <!-- Arquivos JS do Bootstrap 5 e jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Controle externo -->
+    <script src="Controles/controladores.js"></script>
 
 </body>
 

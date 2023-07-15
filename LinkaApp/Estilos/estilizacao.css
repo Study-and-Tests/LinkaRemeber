@@ -1,53 +1,66 @@
-/* Estilos para a pasta pai */
-.pasta_linkaapp {
-    position: relative;
-    padding-left: 20px;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 16px;
-    list-style-image: url('../Icones/html-5.png');
+/*
+    Reset CSS
+    by Eric Meyer
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-/* Estilos para as pastas filhas */
-.pasta_controles {
-    padding-left: 40px;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 16px;
-    list-style-image: url('../Icones/html-5.png');
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
 }
 
-/* Estilos para as pastas filhas */
-.pasta_estilos {
-    padding-left: 40px;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 16px;
-    list-style-image: url('../Icones/html-5.png');
+body {
+    line-height: 1;
 }
 
-/* Estilos para os arquivos */
-.list-group-item.file {
-    padding-left: 40px;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 16px;
+ol, ul {
+    list-style: none;
 }
 
-/* Estilos para os espaçamentos */
-.list-group-item.folder .list-group-item, .list-group-item.file {
-    margin-top: 5px;
+blockquote, q {
+    quotes: none;
 }
 
-.LinkaRemember_html{
-    list-style-image: url('../Icones/html-5.png');
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
 }
-.estilizacao_css{
-    list-style-image: url('../Icones/css-3.png');
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-.controladores_js{
-    list-style-image: url('../Icones/html-5.png');
+
+.badge-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
 }
-.dados_json{
-    list-style-image: url('../Icones/json.png');
+
+li {
+    background-color: #333;
 }

@@ -1,6 +1,3 @@
-// Projeto Leitor de Arquivos e Pastas
-
-
 // Função para criar um elemento <ul>
 var ts_criarUl = function (classes) {
     var _a;
@@ -14,6 +11,7 @@ var ts_criarUl = function (classes) {
     }
     return ul;
 };
+
 // Função para criar um elemento <li>
 var ts_criarLi = function (classes) {
     var _a;
@@ -27,12 +25,14 @@ var ts_criarLi = function (classes) {
     }
     return li;
 };
+
 // Função para criar um elemento <kbd>
 var ts_criarKbd = function (texto) {
     var kbd = document.createElement('kbd');
     kbd.textContent = texto;
     return kbd;
 };
+
 // Função para criar um elemento <h2>
 var ts_criarH2 = function (nome, classes) {
     var _a;
@@ -46,6 +46,7 @@ var ts_criarH2 = function (nome, classes) {
     }
     return h2;
 };
+
 // Função para criar um elemento <h3>
 var ts_criarH3 = function (nome, classes) {
     var _a;
@@ -59,6 +60,7 @@ var ts_criarH3 = function (nome, classes) {
     }
     return h3;
 };
+
 // Objeto com a estrutura de dados
 var ts_estrutura = {
     projeto: {
@@ -71,6 +73,7 @@ var ts_estrutura = {
         }
     }
 };
+
 var ts_criarEstruturaHTML = function (pastaProjeto) {
     var ulPai = criarUl();
     ulPai.id = 'pastaProjeto';
@@ -115,6 +118,7 @@ var ts_criarEstruturaHTML = function (pastaProjeto) {
     ulPai.appendChild(liPai);
     return ulPai;
 };
+
 // Atualizar lista de arquivos
 var ts_buttonAtualizarEstrutura = document.querySelector('button#atualizarEstrutura');
 buttonAtualizarEstrutura === null || buttonAtualizarEstrutura === void 0 ? void 0 : buttonAtualizarEstrutura.addEventListener('click', function () {
